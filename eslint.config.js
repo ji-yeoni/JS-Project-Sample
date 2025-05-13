@@ -25,7 +25,8 @@ export default defineConfig([
       "prefer-const": "warn", // 변수가 재할당 되지 않는다면 let 대신 const 사용
       "no-cond-assign": "warn", // 조건문에서 변수값 할당식 사용
       "no-redeclare": 1, // 변수 중복 선언
-      indent: 1, // 들여쓰기 검사(기본 4칸)
+      // indent: 1, // 들여쓰기 검사(기본 4칸)
+      '@typescript-eslint/no-unused-vars':1
     },
   },
   {
